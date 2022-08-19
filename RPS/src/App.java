@@ -15,19 +15,19 @@ public class App {
         System.out.println("The Computer Choose: " + computerChoice);
    
 
-        if (userChoice == computerChoice) {
+        if (userChoice.equals(computerChoice)) {
             System.out.println("It's a tie!");
-        } else if (userChoice == "Rock" && computerChoice == "Scissors") {
+        } else if (userChoice.equals("Rock") && computerChoice.equals("Scissors")) {
             System.out.println("You win!");
-        } else if (userChoice == "Rock" && computerChoice == "Paper") {
+        } else if (userChoice.equals("Rock") && computerChoice.equals("Paper")) {
             System.out.println("You lose!");
-        } else if (userChoice == "Paper" && computerChoice == "Rock") {
+        } else if (userChoice.equals("Paper") && computerChoice.equals("Rock")) {
             System.out.println("You win!");
-        } else if (userChoice == "Paper" && computerChoice == "Scissors") {
+        } else if (userChoice.equals("Paper") && computerChoice.equals("Scissors")) {
             System.out.println("You lose!");
-        } else if (userChoice == "Scissors"&& computerChoice == "Rock") {
+        } else if (userChoice.equals("Scissors") && computerChoice.equals("Rock")) {
             System.out.println("You lose!");
-        } else if (userChoice == "Scissors"&& computerChoice == "Paper") {
+        } else if (userChoice.equals("Scissors") && computerChoice.equals("Paper")) {
             System.out.println("You win!");
         } else {
             System.out.println("Invalid input");
